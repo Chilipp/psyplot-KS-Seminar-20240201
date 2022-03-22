@@ -138,3 +138,5 @@ data/tmp.png
 fmt.yml
 my-project.pkl
 .ipynb_checkpoints
+
+node_modules

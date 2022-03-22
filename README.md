@@ -35,6 +35,10 @@ on
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-DACH2022-presentation/main?filepath=psyplot-framework-presentation.ipynb)
 
+If this does not work for you, there is also a PDF-version of the talk in
+[psyplot-framework-presentation.pdf](psyplot-framework-presentation.pdf).
+
+
 ## License
 
 The contents of this repository is published under the Creative Commons

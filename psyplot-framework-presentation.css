@@ -8,6 +8,7 @@
 #rise-footer {
     margin: 10px;
     right: 10%;
+    display: flex;
 }
 
 #rise-footer img {
