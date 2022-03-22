@@ -1,30 +1,25 @@
-#  Visualizing unstructured grids from scripts and GUI with psyplot
+# Interactive visualization of climate model data via Python or GUI with psyplot
 
-ICON C2SM-Meeting 2022/1
+DACH 2022
 
-February 15th, 2022
+March 23rd, 2022
 
 Philipp S. Sommer
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-ICON-C2SM-Meeting-20220215/main?filepath=psyplot-framework-presentation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-DACH2022-presentation/main?filepath=psyplot-framework-presentation.ipynb)
 
 
-psyplot (https://psyplot.github.io) is a data visualization framework that integrates rich computational and mathematical software packages (such as xarray and matplotlib) into a flexible framework for visualization. It differs from most of the visual analytic softwares such that it focuses on extensibility in order to flexibly tackle the different types of analysis questions that arise in pioneering research. The design of the high-level API of the framework enables a simple and standardized usage from the command-line, python scripts or jupyter notebooks. A modular plugin framework enables a flexible development of the framework that can potentially go into many different directions. The additional enhancement with a flexible GUI makes it the only visualization framework that can be handled from the convenient command-line, as well as via point-click handling. It also allows to build further desktop applications on top of the existing framework.
+psyplot (https://psyplot.github.io) is an open-source data visualization framework that integrates rich computational and mathematical software packages (such as xarray and matplotlib) into a flexible framework for visualization. It differs from most of the visual analytic software such that it focuses on extensibility in order to flexibly tackle the different types of analysis questions that arise in pioneering research. The design of the high-level API of the framework enables a simple and standardized usage from the command-line, python scripts or Jupyter notebooks. A modular plugin framework enables a flexible development of the framework that can potentially go into many different directions. The additional enhancement with a graphical user interface (GUI) makes it the only visualization framework that can be handled from the convenient command-line or scripts, as well as via point-click handling. It additionally allows to build further desktop applications on top of the existing framework.
 
-In this seminar, I will show the main functionalities of psyplot, with a special focus on the visualization of unstructured grids (such as ICON), and the usage of psyplot via commandline and GUI. My demonstration will cover in particular
+In this presentation, I will show the main functionalities of psyplot, with a special focus on the visualization of unstructured grids (such as the ICON model by the German Weather Service (DWD)), and the usage of psyplot on the HPC facilities of the DKRZ (mistral, jupyterhub, remote desktop, etc.). My demonstration will cover the basic structure of the psyplot framework and how to use psyplot in python scripts (and Jupyter notebooks). I will demonstrate a quick demo of to the psyplot GUI and psy-view, a ncview-like interface built upon psyplot, and talk about different features such as reusing plot configurations and exporting figures.
 
-- the basic structure of a psyplot framework
-- how to use psyplot in python scripts (and jupyter notebooks)
-- a guide to the psyplot GUI
-- psy-view: an ncview-like interface build upon psyplot
-- how to reuse plot configurations and generate respective templates
 
 
 ## About this presentation
 
 This presentation uses material from the
-[DKRZ TechTalk from November, 17th 2020][techtalk]. Lot's of
-it has been shown interactively in the GUI during the presentation.
+[DKRZ TechTalk from November, 17th 2020][techtalk]. Some parts have been shown
+interactively in the GUI during the presentation.
 
 [techtalk]: https://github.com/Chilipp/psyplot-DKRZ-TechTalk-20201117
 
@@ -38,7 +33,7 @@ access the raw notebook at
 You can also execute the cells in this presentation interactively by clicking
 on
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-ICON-C2SM-Meeting-20220215/main?filepath=psyplot-framework-presentation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-DACH2022-presentation/main?filepath=psyplot-framework-presentation.ipynb)
 
 ## License
 
