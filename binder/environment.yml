@@ -20,6 +20,7 @@ dependencies:
         - pyvista
         - pyvistaqt
         - ipyvtk-simple>=0.1.2
+        - ipyvtklink
         - itkwidgets>=0.25.2
         - pyct
         - git+https://github.com/Chilipp/psy-vtk.git@master
