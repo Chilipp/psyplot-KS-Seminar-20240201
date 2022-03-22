@@ -43,20 +43,20 @@ dl > dd {
     border-radius: .25rem;
 }
 
-#slide-5-3 .code_cell {
-    flex-direction: row !important;
+#slide-5-0 > div:nth-child(2) {
+  width: 30% !important;
 }
 
-#slide-5-3 .code_cell .input {
-    width: 50%
+#slide-5-0 > div:nth-child(3) > div {
+  width: 70% !important;
 }
 
-#slide-5-3 .code_cell .output_wrapper {
-    width: 50%
+#slide-5-0 > div:nth-child(4) > div {
+  width: 70% !important;
 }
 
-#slide-5-3 .code_cell .output_wrapper .prompt {
-    min-width: 2ex;
+#slide-5-0 > div:nth-child(5) > div {
+  width: 70% !important;
 }
 
 section .past {
