@@ -1,27 +1,27 @@
-# Interactive visualization of climate model data via Python or GUI with psyplot
+# Using psyplot for visualizing unstructured data and vertical transects
 
-DACH 2022
+KS Seminar
 
-March 23rd, 2022
+February 1st, 2024
 
 Philipp S. Sommer
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-DACH2022-presentation/main?filepath=psyplot-framework-presentation.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-KS-Seminar-20240201/main?filepath=psyplot-framework-presentation.ipynb)
 
 
-psyplot (https://psyplot.github.io) is an open-source data visualization framework that integrates rich computational and mathematical software packages (such as xarray and matplotlib) into a flexible framework for visualization. It differs from most of the visual analytic software such that it focuses on extensibility in order to flexibly tackle the different types of analysis questions that arise in pioneering research. The design of the high-level API of the framework enables a simple and standardized usage from the command-line, python scripts or Jupyter notebooks. A modular plugin framework enables a flexible development of the framework that can potentially go into many different directions. The additional enhancement with a graphical user interface (GUI) makes it the only visualization framework that can be handled from the convenient command-line or scripts, as well as via point-click handling. It additionally allows to build further desktop applications on top of the existing framework.
+This presentation demonstrates the most recent features of Psyplot, a powerful tool for visualizing climate data on unstructured grids. The utilization of UGRID conventions has become paramount in handling unstructured grids effectively. This presentation demonstrates how psyplot can be used to effectively and straightforwardly to visualize climate data conforming to UGRID conventions, highlighting its role in enhancing the comprehension of spatial and temporal patterns.
 
-In this presentation, I will show the main functionalities of psyplot, with a special focus on the visualization of unstructured grids (such as the ICON model by the German Weather Service (DWD)), and the usage of psyplot on the HPC facilities of the DKRZ (mistral, jupyterhub, remote desktop, etc.). My demonstration will cover the basic structure of the psyplot framework and how to use psyplot in python scripts (and Jupyter notebooks). I will demonstrate a quick demo of to the psyplot GUI and psy-view, a ncview-like interface built upon psyplot, and talk about different features such as reusing plot configurations and exporting figures.
+Another key focus of the presentation is on the grid-independent extraction of vertical transects in 4-dimensional data, addressing a critical challenge in climate science. I will showcase the new innovative methodologies within Psyplot that facilitate seamless extraction of vertical profiles across varying grid structures, enabling researchers to analyze and interpret climate variables with unprecedented precision. By showcasing practical applications and case studies, the presentation aims to demonstrate the usefullness of psyplot for climate data analysis and model development. Attendees will gain valuable insights into the potential of Psyplot and its role in pushing the boundaries of visualizing climate data on unstructured grids.
 
 
 
 ## About this presentation
 
-This presentation uses material from the
-[DKRZ TechTalk from November, 17th 2020][techtalk]. Some parts have been shown
-interactively in the GUI during the presentation.
+This presentation uses material from 
+[the presentation at the DACH 2022 conference][DACH2022]. Some parts have been 
+shown interactively in the GUI during the presentation.
 
-[techtalk]: https://github.com/Chilipp/psyplot-DKRZ-TechTalk-20201117
+[techtalk]: https://github.com/Chilipp/psyplot-DACH2022-presentation
 
 
 ## Note
@@ -33,10 +33,7 @@ access the raw notebook at
 You can also execute the cells in this presentation interactively by clicking
 on
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-DACH2022-presentation/main?filepath=psyplot-framework-presentation.ipynb)
-
-If this does not work for you, there is also a PDF-version of the talk in
-[psyplot-framework-presentation.pdf](psyplot-framework-presentation.pdf).
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Chilipp/psyplot-KS-Seminar-20240201/main?filepath=psyplot-framework-presentation.ipynb)
 
 
 ## License
@@ -46,4 +43,4 @@ Attribution 4.0 International Public License (CC BY 4.0).
 
 See the [LICENSE](LICENSE) file for more details.
 
-Copyright (c) 2022, Philipp S. Sommer, Hereon.
+Copyright (c) 2022-2024, Helmholtz-Zentrum hereon GmbH

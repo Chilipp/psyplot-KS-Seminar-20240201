@@ -2,7 +2,7 @@
 ---
 cff-version: "1.2.0"
 message: "If you use the contents of this repository, please cite both the article from preferred-citation and the software itself."
-title: "Interactive visualization of climate model data via Python or GUI with psyplot"
+title: "Using psyplot for visualizing unstructured data and vertical transects"
 authors:
   - family-names: Sommer
     given-names: "Philipp S."
@@ -17,7 +17,7 @@ contact:
   - email: psyplot@hereon.de
     name: "Psyplot developers at hereon"
 license: "CC-BY-4.0"
-repository-code: https://github.com/Chilipp/psyplot-DACH2022-presentation
+repository-code: https://github.com/Chilipp/psyplot-KS_Seminar-20240201
 type: software
 keywords:
   - psyplot
@@ -29,19 +29,4 @@ keywords:
   - interactive
   - climate models
   - unstructured
-preferred-citation:
-  title: "Interactive visualization of climate model data via Python or GUI with psyplot"
-  authors:
-    - family-names: Sommer
-      given-names: "Philipp S."
-      affiliation: "Helmholtz-Zentrum Hereon"
-      orcid: "https://orcid.org/0000-0001-6171-7716"
-  year: 2022
-  type: article
-  doi: "10.5194/dach2022-280"
-  date-published: 2021-12-01
-  journal: DACH2022
-  publisher:
-    name: Copernicus GmbH
-  license: CC-BY-4.0
 ...
