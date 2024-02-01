@@ -12,6 +12,7 @@ dependencies:
     - dask
     - pip
     - pyinterp
+    - xarray=2023.7.0
     - scikit-learn
     - cartopy
     - cython
