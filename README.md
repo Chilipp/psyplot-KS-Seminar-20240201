@@ -21,7 +21,7 @@ This presentation uses material from
 [the presentation at the DACH 2022 conference][DACH2022]. Some parts have been 
 shown interactively in the GUI during the presentation.
 
-[techtalk]: https://github.com/Chilipp/psyplot-DACH2022-presentation
+[DACH2022]: https://github.com/Chilipp/psyplot-DACH2022-presentation
 
 
 ## Note
